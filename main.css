@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section, footer{
+    position: relative;
+     width: 100%;
+     max-height: 100vh;
+     padding: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: blue;
+     transition: 0.8s;
+
+}
+.btn{
+    background-color: blue;
+}
+
+.menu li a:hover{
+    transition: all 0.3s ease-in-out;
+    border-radius: 30px;
+    color: red;
+    background: transparent;
+}
+
+
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+display: inline-block;
+margin-left: 30px;
+text-decoration: none;
+color: white;
+font-weight: 500px;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .txtbox{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .txtbox h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 900;
+}
+
+.content .txtbox h2 span{
+    font-size: 2em;
+}
+
+.content .txtbox p{
+    color: white;
+}
+
+.content .txtbox a{
+display: inline-block;
+margin-top: 22px;
+background-color: white;
+padding: 10px 20px;
+color: black;
+border: 1px solid white;
+border-radius: 25px;
+text-decoration: none;
+transition: all 0.4s ease-in-out;
+}
+
+.content .txtbox a:hover{
+transform: translateY(-40%);
+color: red;
+background: transparent;
+}
+.content .img{
+    display: flex;
+    width: 600px;
+    padding-right: 50px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.content .img img{
+    min-width: 200px;
+    max-width: 250px;
+    max-height: 750px;
+}
+
+.logo3, .logo1, .logo2{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
+}
+.pepsi1, .pepsi2, .pepsi3{
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: auto;
+}
+
+.btn2 a{
+display: flex;
+margin-top: 22px;
+background-color: white;
+padding: 10px 20px;
+color: black;
+border: 1px solid white;
+border-radius: 25px;
+text-decoration: none;
+transition: all 0.4s ease-in-out;
+}
+
+.btn2 a:hover{
+transform: translateY(-30%);
+/* transform: translateX(30%); */
+color: red;
+background: transparent;
+}
+
+.btn a{
+display: flex;
+margin-top: 22px;
+background-color: blue;
+padding: 10px 20px;
+color: black;
+border-radius: 25px;
+text-decoration: none;
+transition: all 0.4s ease-in-out;
+}
+
+.btn a:hover{
+transform: translateY(-30%);
+color: darkgreen;
+background: transparent;
+/* transform: scaleY(10);
+transform: scaleX(10);
+transform: skewY(10); */
+transform: skewX(10);
+}
+
+footer{
+    position: relative;
+     width: 100%;
+     max-height: 100vh;
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: silver;
+     transition: 0.8s;
+     border-spacing: 25px;
+}
